@@ -20,6 +20,16 @@
         <module>ear</module>
         <module>ejbs</module>
         <module>servlet</module>
+        <module>spring</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
