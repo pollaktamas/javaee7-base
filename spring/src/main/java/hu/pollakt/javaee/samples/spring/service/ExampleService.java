@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 @Service
 public class ExampleService {
 
-    @Resource(lookup = "java:module/GreeterEjb")
+    @Resource(lookup = "java:app/ejbs-1.0/GreeterEjb")
     GreeterEjb greeterEjb;
 
     @PostConstruct
