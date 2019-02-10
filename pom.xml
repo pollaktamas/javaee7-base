@@ -20,7 +20,6 @@
         <module>ear</module>
         <module>ejbs</module>
         <module>servlet</module>
-        <module>spring</module>
     </modules>
 
     <build>
