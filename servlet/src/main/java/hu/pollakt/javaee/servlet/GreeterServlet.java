@@ -2,7 +2,7 @@ package hu.pollakt.javaee.servlet;
 
 import hu.pollakt.javaee.samples.ejbs.GreeterEjb;
 
-import javax.ejb.EJB;
+import javax.inject.Inject;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -12,7 +12,7 @@ import java.io.IOException;
 @WebServlet("/GreeterServlet")
 public class GreeterServlet extends HttpServlet {
 
-    @EJB
+    @Inject
     private GreeterEjb greeterEjb;
 
     @Override
